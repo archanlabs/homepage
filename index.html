@@ -1,85 +1,125 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Archan Labs</title>
-<link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
-<script src="assets/css/tailwind.css"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Archan Labs</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+    <script src="assets/css/tailwind.css"></script>
 
-<style>
-  @keyframes pulse {
-    0%, 100% { opacity: 0.2; }
-    50% { opacity: 0.6; }
-  }
-  .animate-pulse {
-    animation: pulse 4s ease-in-out infinite;
-  }
-  .animate-pulse.delay-1000 {
-    animation-delay: 1s;
-  }
-  .animate-bounce {
-    animation: bounce 1.5s infinite;
-  }
-  @keyframes bounce {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(10px); }
-  }
-</style>
-</head>
-<body>
-<section class="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden" style="background-color: #1a1a1a">
-  <div class="absolute inset-0 bg-gradient-to-br from-[#f24c3d]/20 via-[#f79530]/20 to-[#f3cb3e]/20"></div>
+    <style>
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 0.2;
+        }
+        50% {
+          opacity: 0.6;
+        }
+      }
+      .animate-pulse {
+        animation: pulse 4s ease-in-out infinite;
+      }
+      .animate-pulse.delay-1000 {
+        animation-delay: 1s;
+      }
+      .animate-bounce {
+        animation: bounce 1.5s infinite;
+      }
+      @keyframes bounce {
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(10px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section
+      class="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden"
+      style="background-color: #1a1a1a"
+    >
+      <div
+        class="absolute inset-0 bg-gradient-to-br from-[#f24c3d]/20 via-[#f79530]/20 to-[#f3cb3e]/20"
+      ></div>
 
-  <div class="absolute inset-0 overflow-hidden">
-    <div class="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-[#f24c3d] to-[#f79530] rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse"></div>
-    <div class="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-br from-[#f3cb3e] to-[#f79530] rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse delay-1000"></div>
-  </div>
-
-  <div class="relative z-10 text-center max-w-5xl mx-auto">
-    <div class="flex items-center justify-center mb-8">
-      <div class="bg-white/10 backdrop-blur-md p-3 rounded-xl flex items-center justify-center">
-        <img src="assets/images/archanlabs.png" alt="Archanlabs logo" class="h-8 w-8" />
+      <div class="absolute inset-0 overflow-hidden">
+        <div
+          class="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-[#f24c3d] to-[#f79530] rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse"
+        ></div>
+        <div
+          class="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-br from-[#f3cb3e] to-[#f79530] rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse delay-1000"
+        ></div>
       </div>
-      <h1 class="text-3xl font-bold text-white ml-4">Archan Labs</h1>
-    </div>
 
-    <h2 class="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-      <span class="bg-gradient-to-r from-[#f24c3d] via-[#f79530] to-[#f3cb3e] bg-clip-text text-transparent">
-        Inovacão
-      </span> em cada linha de código
-    </h2>
+      <div class="relative z-10 text-center max-w-5xl mx-auto">
+        <div class="flex items-center justify-center mb-8">
+          <div
+            class="bg-white/10 backdrop-blur-md p-3 rounded-xl flex items-center justify-center"
+          >
+            <img
+              src="assets/images/archanlabs.png"
+              alt="Archanlabs logo"
+              class="h-8 w-8"
+            />
+          </div>
+          <h1 class="text-3xl font-bold text-white ml-4">Archan Labs</h1>
+        </div>
 
-    <p class="text-xl sm:text-2xl text-slate-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-      Transformamos ideias em soluções tecnológicas revolucionárias. 
-      Desenvolvemos software que impulsiona o futuro dos negócios.
-    </p>
+        <h2
+          class="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight"
+        >
+          <span
+            class="bg-gradient-to-r from-[#f24c3d] via-[#f79530] to-[#f3cb3e] bg-clip-text text-transparent"
+          >
+            Inovacão
+          </span>
+          em cada linha de código
+        </h2>
 
-    <div class="flex flex-wrap justify-center gap-6 mb-12">
-      <div class="flex items-center bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
-        <div class="h-3 w-3 rounded-full bg-[#f24c3d] mr-2"></div>
-        <span class="text-white">Inovação</span>
+        <p
+          class="text-xl sm:text-2xl text-slate-300 mb-8 max-w-3xl mx-auto leading-relaxed"
+        >
+          Transformamos ideias em soluções tecnológicas revolucionárias.
+          Desenvolvemos software que impulsiona o futuro dos negócios.
+        </p>
+
+        <div class="flex flex-wrap justify-center gap-6 mb-12">
+          <div
+            class="flex items-center bg-white/10 backdrop-blur-sm rounded-full px-4 py-2"
+          >
+            <div class="h-3 w-3 rounded-full bg-[#f24c3d] mr-2"></div>
+            <span class="text-white">Inovação</span>
+          </div>
+          <div
+            class="flex items-center bg-white/10 backdrop-blur-sm rounded-full px-4 py-2"
+          >
+            <div class="h-3 w-3 rounded-full bg-[#f79530] mr-2"></div>
+            <span class="text-white">Tecnologia</span>
+          </div>
+          <div
+            class="flex items-center bg-white/10 backdrop-blur-sm rounded-full px-4 py-2"
+          >
+            <div class="h-3 w-3 rounded-full bg-[#f3cb3e] mr-2"></div>
+            <span class="text-white">Soluções</span>
+          </div>
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <button
+            class="bg-gradient-to-r from-[#f24c3d] to-[#f79530] hover:from-[#f24c3d] hover:to-[#f3cb3e] text-white px-8 py-4 text-lg rounded-md transition-all duration-300 transform hover:scale-105"
+          >
+            Fale conosco
+          </button>
+        </div>
       </div>
-      <div class="flex items-center bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
-        <div class="h-3 w-3 rounded-full bg-[#f79530] mr-2"></div>
-        <span class="text-white">Tecnologia</span>
-      </div>
-      <div class="flex items-center bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
-        <div class="h-3 w-3 rounded-full bg-[#f3cb3e] mr-2"></div>
-        <span class="text-white">Soluções</span>
-      </div>
-    </div>
+    </section>
+  </body>
 
-    <div class="flex flex-col sm:flex-row gap-4 justify-center">
-      <button class="bg-gradient-to-r from-[#f24c3d] to-[#f79530] hover:from-[#f24c3d] hover:to-[#f3cb3e] text-white px-8 py-4 text-lg rounded-md transition-all duration-300 transform hover:scale-105">
-        Fale conosco
-      </button>
-    </div>
-  </div>
-</section>
-</body>
-
-<footer class="bg-[#1a1a1a] text-gray-400 text-center py-6 mt-auto">
-  &copy; 2025 Archan Labs. Todos os direitos reservados.
-</footer>
+  <footer class="bg-[#1a1a1a] text-gray-400 text-center py-6 mt-auto">
+    &copy; 2025 Archan Labs. Todos os direitos reservados.
+  </footer>
 </html>
